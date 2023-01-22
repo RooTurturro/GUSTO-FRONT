@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    background-color: rgb(#b71c1c);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.button:hover{
+	background-color: rgb(221, 23, 23);
+    color: aliceblue;
+}

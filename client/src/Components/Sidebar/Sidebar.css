@@ -1,0 +1,75 @@
+.sidebar {
+    flex: 0;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+    width: 200px;
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6439ff;
+}
+
+
+hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+}
+
+.center {
+    padding-left: 10px;
+
+}
+
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.ul li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.li:hover {
+    background-color: crimson;
+    border-radius: 200px;
+}
+
+.icon {
+    font-size: 23px;
+    color: #7451f8;
+}
+
+.span {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+   
+}
+
+.span:hover{
+    color:#fff
+}
